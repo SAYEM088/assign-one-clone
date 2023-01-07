@@ -92,13 +92,14 @@
     font-weight: 400;
     padding-top: 20px;
 }
+
 .details-list{
     font-size: 20px;
     font-weight: 400;
     list-style: none;
     padding: 20px;
 }
-
+/* checkmark green */
 span{
     color: green;
 }
