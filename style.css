@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+}
+/* nav-bar */
+.nav-tittle{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(163, 161, 161);
+}
+.nav-name{
+    font-size: 40px;
+    font-weight: 800; 
+    padding: 20px; 
+    color: blue;
+}
+.name-design{
+    color: brown;
+}
+.nav-manu{
+    list-style: none;
+    display: flex;
+}
+.list-item{
+    padding: 40px;
+    color: black;
+    font-weight: 900;
+}
+/* end nav */
+/* bannar section */
+.home-banner{
+    background-size: cover;
+    background-image: url(/bannerpic.png);
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    align-items:center;
+}
+.banner-theme{
+    padding-right: 100px;
+    font-size: 50px;
+    font-weight: 800px;
+}
+.banner-para{
+    padding-right: 100px;
+    width: 500px;
+    text-align: right;
+    height: 50px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.banner-button{
+    padding-right: 120px;
+    padding-top: 50px;
+}
+.button-contact{
+    padding: 10px;
+    border: 0;
+    border-radius: 5px;
+    background-color: orangered;
+    color: white;
+}
+/* -picture-page */
+.profile-cover{
+    display: flex;
+    
+    width: 100%;
+}
+.pic-container{
+    margin: 90px;
+}
+.details-container{
+    margin: 100px;
+    padding-top: 20px;
+    align-items: center;
+    text-align: left;
+    
+}
+.details-header{
+    font-size: 50px;
+    font-weight: 800;
+    padding-top: 100px;
+    margin-top: 50px;
+    
+}
+.details-para{
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.details-list{
+    font-size: 20px;
+    font-weight: 400;
+    list-style: none;
+    padding: 20px;
+}
+
+span{
+    color: green;
+}
+/* plan page */
+
+.plan-page{
+ height: 110vh;
+}
+.my-plan-div{
+    margin-top: 100px;
+    text-align: center;
+}
+.my-plan{
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.plan-list{
+    display: flex;
+    padding: 80px 130px ;
+}
+   
+.plans{
+  margin-left: 90px;
+  padding: 10px;
+}
+.plan-name{
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.plan-para{
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 10px;
+    color: rgb(88, 86, 86);
+}
+/* gradient-setup */
+.grad-task{
+    margin-left: 100px;
+    margin-right: 110px;
+    margin-bottom: 50px;
+    padding: 50px;
+    background-image: url(/gradient.png),url(/fast-watch.png),
+    linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, .4));
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.positive-mind{
+    font-size: 50px;
+    color: white;
+}
+.call-me{
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 800;
+    color: blue;
+}
+/* last-page */
+.cont-details{
+    display: flex;
+    height: 60vh;
+    background-color: rgb(15, 15, 15);
+}
+.future{
+    margin: 110px;
+}
+.future-head{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    
+}
+.future-para{
+    color: white;
+    margin-right: 30px;
+    padding-right: 50px;
+    padding-top: 20px;
+}
+.future-contact{
+    color: white;
+    padding-top: 10px;
+}
+.contact-logo{
+    display: flex;
+    padding-top: 10px;
+}
+.fb-logo{
+    padding-right: 15px;
+}
+.subscribe{
+    margin: 120px;
+}
+.subs-head{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+.subs-mail{
+    background-color: rgb(26, 25, 25);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.subs-button{
+    background-color: rgba(9, 111, 245, 0.548);
+    color: white;
+    padding: 15px 20px;
+    margin-top: 10px;
+    border-radius: 7px;
+    font-size: 15px;
+}
+/* finally the end !!! */
